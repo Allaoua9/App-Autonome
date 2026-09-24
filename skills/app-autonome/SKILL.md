@@ -1,6 +1,7 @@
 ---
 name: app-autonome
-description: "Turns an idea, a need, or a prototype into a self-contained web tool."
+description: Turns an idea, a need, or a prototype into a self-contained offline HTML tool. Use when the user wants a local single-file web app, a file:// tool, or a business utility that never sends data over the network.
+license: MIT
 ---
 
 # Self-contained HTML tool

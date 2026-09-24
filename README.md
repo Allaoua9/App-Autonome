@@ -14,6 +14,16 @@ Use AI to turn your working routines into local applications, then run them with
 
 Website: [English](https://yanncarbo.github.io/App-Autonome/) · [Français](https://yanncarbo.github.io/App-Autonome/fr/index.html)
 
+## Install with the skills CLI
+
+The skill lives at `skills/app-autonome/SKILL.md`, the layout [skills.sh](https://skills.sh) and `npx skills` discover:
+
+```bash
+npx skills add Allaoua9/App-Autonome
+```
+
+That installs `app-autonome` into the agents you select (Cursor, Claude Code, Codex, and the rest of the skills CLI list).
+
 ## Install on your AI
 
 The skill follows the open **Agent Skills** format (a `SKILL.md` folder + resources), common to Claude, ChatGPT/Codex, Mistral and Gemini: **one single source** installs everywhere. The Release provides **two identical files**, the `.skill` (import as-is) and its `.zip` copy (unzip it for AIs that import a "folder"):
@@ -25,7 +35,7 @@ The skill follows the open **Agent Skills** format (a `SKILL.md` folder + resour
 | **Mistral** | the unzipped `.zip` (folder) | [chat.mistral.ai/skills](https://chat.mistral.ai/skills?dialog=create) |
 | **Gemini Enterprise** | the `.zip` / folder | [docs.cloud.google.com - Skills](https://docs.cloud.google.com/gemini/enterprise/docs/skills) |
 
-Both files can be downloaded from the [latest Release](https://github.com/YannCarbo/App-Autonome/releases/latest).
+Both files can be downloaded from the [latest Release](https://github.com/Allaoua9/App-Autonome/releases/latest).
 
 
 ## License
